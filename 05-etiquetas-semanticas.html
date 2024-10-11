@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Etiquetas Semánticas</title>
+  </head>
+  <body>
+    <h2>Etiquetas Semánticas</h2>
+    <p>Las etiqueta semanticas en HTML son aquellas que describen el proposito y significado del contendido que envuelven.</p>
+    <p>A diferencia de las etiquetas contenedor div y span, las etiquetas semanticas proporcionan un contexto a los desarrolladores, a los navegadores, y a los motores de busqueda.</p>
+
+   <!--
+    Etiquetas Semánticas
+
+      1. Header
+
+        Define el encabezado de un documento o sección, puede contener titulos, logotipos, menus de navegación u otros elementos introductorios.
+    -->
+
+     <header>
+       <h1>Bienvenidos a mi sitio web.</h1>
+       <img src="./logotipo.png" alt="Marca o Logotipo de Ariel">
+
+       <!-- 
+         2. Nav
+            Define una seccion de navegación, tipicamente contiene enlaces a otras paginas o secciones del mismo documento.
+       -->
+
+       <nav>
+        <a href="index.html">Inicio</a>
+        <a href="abaout.html">Sobre Mi</a>
+        <a href="portfolio.html">Portafolio</a>
+        <a href="contact.html">Contacto</a>
+        </nav>
+     </header>
+     
+     <!-- 
+      3. Main
+          Indica el contenido principal del documento y solo debe de haber una etiqueta main por pagina.
+     -->
+
+     <main>
+        <!--
+          4. Secciones
+            Define una seccion generica dentro de un documento, como un contenido relacionado con un tema y normalmente incluyen un encabezado.      
+        -->
+
+        <section>
+          <header>
+            <h2>Biografia</h2>
+          </header>
+            
+            <div>
+              <img src="profile.jpeg" alt="Foto de Perfil">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur vitae nihil incidunt sapiente atque quo corporis at, perspiciatis quod voluptatem ut explicabo tenetur sed, iusto dolores in, laudantium assumenda alias!</p>
+            </section>
+
+          </div>
+
+        <section>
+          
+          <header>
+            <h2>Blog</h2>
+          </header>
+            <!--
+              5. Article
+                Representa contenido independiente y autocontenido, se utiliza como un articulo de blog, una noticia o publicación.
+            -->
+
+          <article>
+            <h3>Fundamentos de Diseño Web</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem inventore ut delectus et velit commodi nobis quo doloremque consequuntur ea praesentium, sint illum laboriosam explicabo aliquid quibusdam! Quo, illo hic.</p>
+          </article>
+          <article>
+            <h3>Curvas de Velocidad en After Effects</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi necessitatibus maiores quo hic dolore magnam sed ipsum adipisci eveniet excepturi officiis, laudantium consectetur impedit veniam dolorum, magni modi odio? Distinctio!</p>
+          </article>
+        </section>
+        
+     </main>
+  </body>
+</html>
