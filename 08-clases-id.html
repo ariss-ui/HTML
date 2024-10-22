@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <title> Clases ID </title>
+  </head>
+    <body>
+      <h1>Clases ID</h1>
+      <p>Las clases ID se utilizan para identificar y agrupar elementos de un documento HTML.</p>
+      <p>Nos permiten aplicar estilos o comportamientos especificos a estos elementos.</p>
+
+      <!--
+        Atributo ID
+          Se Utiliza para identificar de manera única un elemento de la página.
+
+          No puede haber más de un elemento con mismo id en una página.
+
+          Se utiliza para seleccionar un elemento especifico en CSS o JavaScript.
+
+          id="nombreId"
+      -->
+
+      <h2 id="title-1"> La Sociedad! </h2>
+      <h2 id="title-2"> Night Club! </h2>
+
+      <style>
+        /* Aqui Escribimos el código CSS */
+        #title-1 {
+          /* Aqui las propiedades CSS */
+          color: rgb(139, 9, 9);
+          font-size: 48px;
+        }
+
+
+        #title-2 {
+          color: gold;
+          font-size: 48px;
+        }
+
+      </style>
+
+
+      <!--
+          Atributo class
+            Se utiliza para agrupar varios elementos bajo una misma clase.
+
+            A diferencia de los ID, podemos usar la misma clase para varios elementos de la página.
+
+            Sirve para aplicar estilos o comportamientos a un conjunto de elementos que comparten algo en común.
+
+            class="nombreClase"
+      -->
+
+      <section>
+        <h3 class="subtitle">Subtitulo 1</h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque expedita quibusdam ab ipsam fugit quis! Unde quasi veritatis pariatur harum. Delectus accusamus, velit similique aliquid repellat dolores natus dolore.</p>
+      </section>
+
+      <section>
+        <h3 class="subtitle">Subtitulo 2</h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque expedita quibusdam ab ipsam fugit quis! Unde quasi veritatis pariatur harum. Delectus accusamus, velit similique aliquid repellat dolores natus dolore.</p>
+      </section>
+
+      <section>
+        <h3 class="subtitle">Subtitulo 3</h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque expedita quibusdam ab ipsam fugit quis! Unde quasi veritatis pariatur harum. Delectus accusamus, velit similique aliquid repellat dolores natus dolore.</p>
+      </section>
+
+      <section>
+        <h3 class="subtitle">Subtitulo 4</h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque expedita quibusdam ab ipsam fugit quis! Unde quasi veritatis pariatur harum. Delectus accusamus, velit similique aliquid repellat dolores natus dolore.</p>
+      </section>
+
+      <style>
+        
+        .subtitle {
+          color: darkmagenta;
+          font-family: Impact;
+          font-size: 50px;
+          background-color:cornsilk;
+        }
+
+        .paragraph {
+          color: darkcyan;
+          font-family: Helvetica;
+          font-size: 25px;
+          background-color: rgb(58, 58, 58);
+        }
+
+      </style>
+
+    </body>
+</html>
